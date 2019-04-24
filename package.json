@@ -20,6 +20,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "vue-router": "^3.0.6"
+        "vue-router": "^3.0.6",
+        "vuedraggable": "^2.20.0"
     }
 }

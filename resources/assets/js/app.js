@@ -15,15 +15,35 @@ window.Vue = require('vue');
     Vue.use(VueRouter)
 
     import App from './views/App'
-    import Welcome from './views/Welcome'
+    import Board    from './views/Board'
+    import Login        from './views/Login'
+    import Register     from './views/Register'
+    import Home         from './views/Home'
+
 
     const router = new VueRouter({
         mode: 'history',
         routes: [
+           
             {
                 path: '/',
                 name: 'home',
-                component: Welcome
+                component: Home
+            },
+            {
+                path: '/login',
+                name: 'login',
+                component: Login,
+            },
+            {
+                path: '/register',
+                name: 'register',
+                component: Register,
+            },
+            {
+                path: '/board',
+                name: 'board',
+                component: Board,
             },
         ],
     });

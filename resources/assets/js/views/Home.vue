@@ -3,7 +3,7 @@
             <div class="content">
                 <div  class="m-b-md">
                     <h2 class="title m-b-md">
-                        BigTime
+                        Agile-Takz
                     </h2>
                     <h3>
                         Your efficent task planner
@@ -15,7 +15,7 @@
 
     <style scoped>
     .full-height {
-        height: 100vh;
+        height:80vh;
     }
     .flex-center {
         align-items: center;
@@ -36,6 +36,7 @@
     .title {
         font-size: 60px;
         font-weight: 800;
+        
     }
     .links > a {
         color: #636b6f;
@@ -49,6 +50,11 @@
     .m-b-md {
         margin-bottom: 30px;
         color: #000000;
+        color: aliceblue;
+
+    }
+    h3{
+
     }
     </style>
 

@@ -16,9 +16,11 @@
                 'email' => request('email'), 
                 'password' => request('password')
             ];
-
+            // $user=User;
             if (Auth::attempt($credentials)) {
                 $success['token'] = Auth::user()->createToken('MyApp')->accessToken;
+                // $success['name'] = $user->name;
+
 
                 return response()->json(['success' => $success]);
             }
